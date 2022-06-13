@@ -10,5 +10,35 @@ body{
 }
 
 main{
-    background: #a9a6a6f7;
+    Font: Georgia, "Times New Roman", serif;
+    background: #f1ededf7;
+    color: #888;
+    width: 700px;
+    margin: 50px;
+    padding: 50px 20px 70px 20px;
+    border: #d7d0d0f7 solid 2px;
+}
+
+h4 , h1{
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.line{
+    border-bottom: #888 solid 1px;
+    padding-top: 10px;
+}
+
+input[type="submit"]
+{
+    border: none;
+    background: #E27575;
+    margin-top: 20px;
+    padding: 10px;
+    width: 40%;
+    height: 50px;
+    font-size: 1.1em;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(69, 68, 68);
 }
